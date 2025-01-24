@@ -4,6 +4,7 @@ export const useApiClient = () => {
     
     return $fetch.create({
       baseURL: config.public.baseURL,
+      credentials: 'include',
       headers: {
         Authorization: 'Basic ' + btoa(
           encodeURIComponent(config.public.username) + ':' +
