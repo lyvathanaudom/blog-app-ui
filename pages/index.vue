@@ -6,7 +6,7 @@
         v-for="post in posts"
         :key="post.id"
         :to="`/posts/${post.id}`"
-        class="flex gap-4 items-center text-sm"
+        class="flex gap-4 items-center"
       >
         <div>{{ formatDate(post.date) }}</div>
         <div class="underline hover:no-underline cursor-pointer transition-all duration-200">

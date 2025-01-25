@@ -50,19 +50,7 @@ watch(
 
 <template>
   <article class="max-w-3xl mx-auto">
-    <div v-if="!route.params.slug" class="p-8 text-center">
-      <div class="text-red-500 text-lg mb-4">
-        Invalid post URL
-      </div>
-      <NuxtLink 
-        to="/posts" 
-        class="inline-flex items-center text-blue-600 hover:underline"
-      >
-        ← Back to all posts
-      </NuxtLink>
-    </div>
-
-    <div v-else>
+    <div>
       <!-- Loading State -->
       <div 
         v-if="loading" 
@@ -98,7 +86,7 @@ watch(
           </h1>
           <time 
             :datetime="post.date"
-            class="text-sm text-gray-500 dark:text-gray-400"
+            class="text-sm text-gray-500 sm:font-normal font-bold dark:text-gray-400"
           >
              {{ new Date(post.date).toLocaleDateString('en-US', {
               year: 'numeric',
