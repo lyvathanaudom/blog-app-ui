@@ -1,15 +1,8 @@
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue'
 import { Loader } from 'lucide-vue-next';
-
+import type {Post} from "../../models/Post"
 const route = useRoute()
-
-interface Post {
-  title: string
-  content: string
-  date: string
-  slug: string
-}
 
 const post = ref<Post>({
   title: '',
