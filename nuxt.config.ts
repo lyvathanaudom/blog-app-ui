@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon', // Use 'icon' for favicon or 'image/png' for other logos
           type: 'image/png', // Adjust type based on your logo format
-          href: 'https://images.emojiterra.com/google/android-pie/512px/1f308.png' // Update with the correct path to your logo
+          href: 'https://em-content.zobj.net/source/apple/285/brain_1f9e0.png' // Update with the correct path to your logo
         },
       ],
     },
