@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon', // Use 'icon' for favicon or 'image/png' for other logos
           type: 'image/png', // Adjust type based on your logo format
-          href: 'https://em-content.zobj.net/source/apple/285/brain_1f9e0.png' // Update with the correct path to your logo
+          href: 'https://static-00.iconduck.com/assets.00/brain-emoji-2048x1831-7972hbsm.png' // Update with the correct path to your logo
         },
       ],
     },
