@@ -24,7 +24,7 @@ onMounted(() => {
     <div class="container mx-auto flex justify-between items-center">
       <!-- <img class="w-6" src="https://cdn-icons-png.flaticon.com/512/2790/2790220.png" alt=""> -->
        <NuxtLink to="/" class="text-sm">
-        🧠 Lee Archive
+        🧠
        </NuxtLink>
       <div>
         <button
